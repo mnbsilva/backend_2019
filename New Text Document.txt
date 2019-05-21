@@ -1,0 +1,37 @@
+const express = require('express')
+const app = express()
+const port = 3000
+const fs = require('fs');
+var bodyParser = require('body-parser');
+//
+app.use(bodyParser.urlencoded({extended: false}));
+//
+app.use(bodyParser.json());
+
+// test server
+app.get('/', (req, res) => res.send('Hello World!'))
+
+
+function readfile(filename){
+    var file=fs.readFileSync(fileName, 'utf-8');
+    return file;
+}
+
+function writeLog(request, response){
+    var log = request.path + ", " + request.method + ", " + new Date() + "\n";
+    fs.appendFile ('log.txt', log, function (err){
+        if (err) throw  err;
+    })
+}
+
+function logUpdate(){
+    fs.appendFile('log.txt', (req.body,req.method, new Date), (err), content,(err) => {
+        if(err) throw err;
+        console.log('Te data  "data to append" was appended to file');
+})};
+
+app.get
+
+
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))

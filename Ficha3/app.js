@@ -45,3 +45,6 @@ console.log(isSameLength);
 // console.log(reverseArray);
 
 subArray
+// incompleto
+
+

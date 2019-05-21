@@ -1,0 +1,15 @@
+{
+  "name": "ficha6",
+  "version": "1.0.0",
+  "description": "ficha6",
+  "main": "app.js",
+  "dependencies": {
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+    "person1" : {
+        "firstname" : "Pedro",
+        "lastname" : "Lopes",
+        "profession" : "teacher",
+        "age" : "25",
+        "id" : 1
+    },
+    "person2" : {
+        "firstname" : "Pedro",
+        "lastname" : "Lopes",
+        "profession" : "teacher",
+        "age" : "25",
+        "id" : 2
+    },
+    "person3" : {
+        "firstname" : "Pedro",
+        "lastname" : "Lopes",
+        "profession" : "teacher",
+        "age" : "25",
+        "id" : 3
+    }
+}
