@@ -31,7 +31,10 @@ module.exports = function (passport) {
 
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
-        // select from users where id =        
+        // select from users where id =
+        connection.query("select * from users where id = " + Id, function (err, rows){
+            done(err, rows [0]); 
+        });
     });
 
     // =========================================================================
