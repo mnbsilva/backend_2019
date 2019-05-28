@@ -51,7 +51,8 @@ module.exports = function (passport) {
     },
         function (req, email, password, done) {
             // find a user whose email is the same as the forms email
-            // we are checking to see if the user trying to login already exists            
+            // we are checking to see if the user trying to login already exists
+            connection            
         }));
     // =========================================================================
     // LOCAL LOGIN =============================================================
