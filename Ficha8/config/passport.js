@@ -32,8 +32,8 @@ module.exports = function (passport) {
     // used to deserialize the user
     passport.deserializeUser(function (id, done) {
         // select from users where id =
-        connection.query("select * from users where id = " + Id, function (err, rows){
-            done(err, rows [0]); 
+        connection.query("select * from ficha8db.users where id = " + id, function (err, rows){
+            done(err, rows[0]); 
         });
     });
 
@@ -52,7 +52,7 @@ module.exports = function (passport) {
         function (req, email, password, done) {
             // find a user whose email is the same as the forms email
             // we are checking to see if the user trying to login already exists
-            connection            
+                        
         }));
     // =========================================================================
     // LOCAL LOGIN =============================================================
@@ -67,5 +67,17 @@ module.exports = function (passport) {
         passReqToCallback: true // allows us to pass back the entire request to the callback
     },
         function (req, email, password, done) { // callback with email and password from our form                        
+            connection.query("select * from ficha8db.users where email = '" + email + "'", function (err, rows){
+                    if (err) 
+                        return done(err);
+                    if (!rows.length){
+                        return done (null,false,req.flash('loginMessage','No user found'));
+                    }
+                    if (rows[0].password != password){                      
+                        return done(null,false,req.flash('loginMessage', 'Wrong password'));
+                    }   
+                    console.log(rows[0]);                 
+                    return done(null,rows[0]);
+            });
         }));
 };
