@@ -1,0 +1,80 @@
+{
+    "foto_1": {
+        "id": "fe7e8570-7360-11e9-b11b-7f9ce67551b6",
+        "uploader": "André",
+        "title": "Rio Douro",
+        "description": "Uma foto do rio Douro",
+        "size": 4342,
+        "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1dc560d-b15a-4292-a4e6-d945d7517fb6/d93up1h-78098180-53b8-4c6d-ae7c-77a90474dc74.jpg/v1/fill/w_1024,h_768,q_75,strp/random_river_by_foxiwan_d93up1h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvYTFkYzU2MGQtYjE1YS00MjkyLWE0ZTYtZDk0NWQ3NTE3ZmI2XC9kOTN1cDFoLTc4MDk4MTgwLTUzYjgtNGM2ZC1hZTdjLTc3YTkwNDc0ZGM3NC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.BYC4meTjE0z4evGU5FduGlSXzSdyS4em9b2g4OV0rAA",
+        "likes": 389,
+        "dislikes": 272,
+        "comments": [
+            "Uau!",
+            "que lindo!!",
+            "que rio bonito"
+        ],
+        "tags": [
+            "Rio",
+            "Natureza",
+            "Paisagem"
+        ]
+    },
+    "foto_2": {
+        "id": "0a7c21c0-7361-11e9-a3e6-0f8bb07cff92",
+        "uploader": "Martim",
+        "title": "Passarinho",
+        "description": "Um passarinho",
+        "size": 1231,
+        "url": "https://s3.amazonaws.com/img.cdm/tela-passarinho-amarelopreto-impressao-digital-30x30-cm-Carro-de-Mola-euCQ0.jpg",
+        "likes": 400,
+        "dislikes": 0,
+        "comments": [
+            "Passarinho tem uma cor linda, lol",
+            "aonde compraste ele?!",
+            "Que lindo!"
+        ],
+        "tags": [
+            "Passarinho",
+            "Passaro",
+            "Animais"
+        ]
+    },
+    "foto_3": {
+        "id": "fe6b6b30-7427-11e9-9fe7-cf4800a2ff6e",
+        "uploader": "Martim",
+        "title": "Barco",
+        "description": "O meu barco de Sonho",
+        "size": 1331,
+        "url": "https://s3.amazonaws.com/img.cdm/tela-passarinho-amarelopreto-impressao-digital-30x30-cm-Carro-de-Mola-euCQ0.jpg",
+        "likes": 150,
+        "dislikes": 7,
+        "comments": [
+            "Uau que barco",
+            "Fenomenal"
+        ],
+        "tags": [
+            "Barco",
+            "Férias",
+            "Grande"
+        ]
+    },
+    "foto_4": {
+        "id": "caf24a70-75a9-11e9-9d50-715400c307fc",
+        "uploader": "Jorge",
+        "title": "Chapeu",
+        "description": "Um chapeu de palha",
+        "size": 1331,
+        "url": "https://cdn.laredoute.com/products/641by641/6/f/8/6f8cae4e17cb22651565037dc9abed2d.jpg",
+        "likes": 121,
+        "dislikes": 7,
+        "comments": [
+            "Que lindo Chapeu!",
+            "Uau"
+        ],
+        "tags": [
+            "Protect",
+            "Férias",
+            "Roupa"
+        ]
+    }
+}

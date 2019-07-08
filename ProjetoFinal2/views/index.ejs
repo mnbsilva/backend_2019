@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="/socket.io/socket.io.js"></script>
+    <title> Chat App</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1> Chat</h1>
+    </header>
+ 
+
+    <section id="chatroom">
+      <section id="feedback"></section>
+      <img src="<%= typeof file != 'undefined' ? file : '' %>" class="responsive-img">
+    </section>
+    <section id="input_zone"> 
+      <input id="message" class="vertical-align" type="text" placeholder="Message"/>
+      <button id="send_message" class="vertical-align" type="button">Send</button>
+    </section>
+
+    <section id="change_username"> 
+      <input id="username" class="vertical-align" type="text" placeholder="Username" />
+      <button id="send_user" class="vertical-align" type="button">Change</button>
+    </section>
+
+    <form accept="image/x-png,image/gif,image/jpeg"
+          enctype = "multipart/form-data"
+          action = "/upload"
+          method = "POST">
+
+    <input type="file" name="userFile">
+    <input type="submit" value="Upload File" name="submit" id="send_image">
+
+    </form>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+      <ul>
+          <h3>Active Users:</h3>
+          <div id="users"></div>
+      </ul>
+  </body>
+</html>
